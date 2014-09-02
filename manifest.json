@@ -1,0 +1,19 @@
+{
+	"manifest_version": 2,
+
+	"name": "Brutus",
+	"description": "A simple example",
+	"version": "0.1",
+
+	"background": {"scripts": ["main.js"]},
+
+	"permissions": [
+		"https://secure.flickr.com/"
+	],
+	"browser_action": {
+		"default_icon": "icon.png"
+	},
+	"permissions": [
+		"activeTab", "tabs", "*://*/*"
+	]
+}
